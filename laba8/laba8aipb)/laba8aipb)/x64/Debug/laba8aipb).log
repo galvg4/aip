@@ -1,0 +1,8 @@
+﻿  laba8aipb).c
+C:\Users\galst\OneDrive\Рабочий стол\аип\laba8\laba8aipb)\laba8aipb).c(139,24): warning C4473: "printf": передано недостаточно аргументов для строки формата
+      C:\Users\galst\OneDrive\Рабочий стол\аип\laba8\laba8aipb)\laba8aipb).c(139,24):
+      заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+      C:\Users\galst\OneDrive\Рабочий стол\аип\laba8\laba8aipb)\laba8aipb).c(139,24):
+      отсутствующий вариативный аргумент "1" требуется для строки форматирования "%s"
+  
+  laba8aipb).vcxproj -> C:\Users\galst\OneDrive\Рабочий стол\аип\laba8\laba8aipb)\x64\Debug\laba8aipb).exe
