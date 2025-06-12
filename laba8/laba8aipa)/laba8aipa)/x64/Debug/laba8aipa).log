@@ -1,2 +1,4 @@
 ﻿  laba8aipa).c
+C:\Users\galst\OneDrive\Рабочий стол\аип\laba8\laba8aipa)\laba8aipa).c(193,15): warning C4013: strcspn: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\galst\OneDrive\Рабочий стол\аип\laba8\laba8aipa)\laba8aipa).c(196,13): warning C4013: strlen: нет определения; предполагается "extern" с возвратом типа "int"
   laba8aipa).vcxproj -> C:\Users\galst\OneDrive\Рабочий стол\аип\laba8\laba8aipa)\x64\Debug\laba8aipa).exe

@@ -171,7 +171,7 @@ int main() {
     linked_list L1, L2;
     start_list(&L1);
     start_list(&L2);
-    int choice;
+    char input[100]; // 
 
     while (1) {
         printf("\nМеню:\n");
@@ -182,7 +182,28 @@ int main() {
         printf("5. Вывести L2\n");
         printf("6. Выход\n");
         printf("Выберите опцию (1-6): ");
-        scanf_s("%d", &choice);
+
+        
+        if (fgets(input, sizeof(input), stdin) == NULL) {
+            printf("Ошибка чтения ввода.\n");
+            continue;
+        }
+
+        
+        input[strcspn(input, "\n")] = '\0';
+
+       
+        if (strlen(input) == 0) {
+            printf("Ошибка! Введите число от 1 до 6.\n");
+            continue;
+        }
+
+       
+        int choice;
+        if (sscanf_s(input, "%d", &choice) != 1) {
+            printf("Ошибка! Введите число от 1 до 6.\n");
+            continue;
+        }
 
         switch (choice) {
         case 1:
@@ -232,7 +253,7 @@ int main() {
             printf("Программа завершена.\n");
             return 0;
         default:
-            printf("Неверный выбор! Попробуйте снова.\n");
+            printf("Неверный выбор! Введите число от 1 до 6.\n");
         }
     }
     return 0;
